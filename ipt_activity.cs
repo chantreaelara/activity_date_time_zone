@@ -138,13 +138,13 @@ class Program
         TimeZoneInfo tz;
         if (location.Equals("Philippines", StringComparison.OrdinalIgnoreCase))
         {
-            tz = TimeZoneInfo.FindSystemTimeZoneById("Singapore Standard Time"); // Philippines shares with Singapore
+            tz = TimeZoneInfo.FindSystemTimeZoneById("Singapore Standard Time"); 
         }
         else if (location.Equals("United States", StringComparison.OrdinalIgnoreCase))
         {
-            tz = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time"); // US Eastern
+            tz = TimeZoneInfo.FindSystemTimeZoneById("Eastern Standard Time");
         }
-        else // India
+        else 
         {
             tz = TimeZoneInfo.FindSystemTimeZoneById("India Standard Time");
         }
